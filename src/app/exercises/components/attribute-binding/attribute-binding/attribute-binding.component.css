@@ -1,3 +1,11 @@
 :host {
   display: block;
 }
+
+.begin-with-a {
+  color: red;
+}
+
+.more-than-five {
+  background-color: yellow;
+}

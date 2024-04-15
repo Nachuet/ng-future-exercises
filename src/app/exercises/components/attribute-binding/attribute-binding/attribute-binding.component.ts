@@ -10,4 +10,15 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core'
 })
 export class AttributeBindingComponent {
   text = input.required<string>()
+
+  getTittle() {
+    return this.text().length > 5 ? 'hola mundo' : ''
+  }
+
+  getStyleClass() {
+    return {
+      'begin-with-a': this.text().toLowerCase().startsWith('a'),
+      'more-than-five': this.text().length > 5,
+    }
+  }
 }
