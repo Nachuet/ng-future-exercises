@@ -10,12 +10,13 @@ import { IfComponent } from '../if.component'
   template: `
     <app-solution-component>
       <app-markdown statement src="assets/app/exercises/components/if/README.md" />
-      <app-if-solution solution [habits]="habits" />
-      <app-if user-solution />
+      <app-if-solution solution [habits]="HayElementos" />
+      <app-if user-solution [habits]="HayElementos" />
     </app-solution-component>
   `,
   imports: [SolutionComponent, MdComponent, IfSolutionComponent, IfComponent],
 })
 export class IfExercisePage {
-  habits: string[] = []
+  NoHayElementos: string[] = []
+  HayElementos: string[] = ['Dormir', 'Comer', 'Hacer ejercicio', 'Leer']
 }
