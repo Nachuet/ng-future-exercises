@@ -1,0 +1,20 @@
+<nav>
+  <li>
+    <a routerLink="solution/page">Solution Page Link</a>
+  </li>
+  <li>
+    <a routerLink="solution/page" [queryParams]="{ title: 'Title 1'}">Solution Page (title 1)</a>
+  </li>
+  <li>
+    <a routerLink="solution/page" [queryParams]="{ title: 'Title 2'}">Solution Page (title 2)</a>
+  </li>
+  <li>
+    <a routerLink="solution/page-2" >Link a page-2 (no existe la ruta)</a>
+  </li>
+</nav>
+<button (click)="onClick()">Solution Nested Page Button</button>
+
+<h3>Nested Page will render here:</h3>
+<div>
+  <router-outlet></router-outlet>
+</div>
