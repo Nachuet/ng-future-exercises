@@ -1,0 +1,12 @@
+<ul class="habits-list">
+    @if (habits().length === 0) {
+        <div class="no-habits">
+            <p>No hay hábitos creados</p>
+        </div>
+    }@else {
+        @for (habit of habits(); track habit) {
+            <li class="habit-wrapper"><app-habit [habit]="habit"/></li>
+    
+        }
+    }
+</ul>

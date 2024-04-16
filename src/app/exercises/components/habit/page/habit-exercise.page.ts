@@ -17,5 +17,5 @@ import { MdComponent } from '../../../../dashboard/delivery/components/markdown/
   imports: [SolutionComponent, HabitSolutionComponent, HabitComponent, MdComponent],
 })
 export class EventExercisePage {
-  result = 'un texto para probar'
+  result = 'Meditar'
 }
