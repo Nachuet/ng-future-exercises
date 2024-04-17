@@ -31,3 +31,5 @@ Un componente puede tener multiples slots. Cada slot puede especificar un select
 - En la carpeta `exercise` completa el componente `component-with-multi-ng-content` para que tenga el html que quiera que sea común cada vez que utilices el componente y añade varios elementos `ng-content` con sus respectivos selectores donde quieras proyectar contenido extra.
 - Úsalo en el componente `content-projection-multi.component.ts` de la carpeta `exercise`.
 - Puedes comprobar que los contenidos se proyectaran en su slot (sin importar el orden que especifiques en el componente `content-projection-multi`).
+
+hay que revisar este ejercicio
