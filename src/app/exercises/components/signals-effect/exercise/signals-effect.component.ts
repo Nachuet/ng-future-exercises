@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component, signal } from '@angular/core'
 
 @Component({
   selector: 'app-signals-effect',
@@ -7,4 +7,13 @@ import { Component } from '@angular/core'
   standalone: true,
   imports: [],
 })
-export class SignalsEffectComponent {}
+export class SignalsEffectComponent {
+  value = signal(0)
+
+  decrease() {
+    this.value.update(x => x - 1)
+  }
+  increase() {
+    this.value.update(x => x + 1)
+  }
+}
