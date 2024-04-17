@@ -10,6 +10,7 @@ import { Component, signal, computed } from '@angular/core'
 export class SignalsComputedComponent {
   value = signal(0)
   doble = computed(() => this.value() * 2)
+  dobledoble = computed(() => this.doble() * 2)
 
   decrease() {
     this.value.update(value => value - 1)
