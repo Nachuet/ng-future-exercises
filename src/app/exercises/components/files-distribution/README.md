@@ -17,6 +17,7 @@ volveremos a hacer el hello world pero, esta vez, separando los ficheros.
 <br/>
 
 > 💡 Usa el Angular CLI para generar los ficheros
-> <br/>
-> <br/>
-> 👍 Hecho
+
+## Resultado y notas
+
+👍 Hecho

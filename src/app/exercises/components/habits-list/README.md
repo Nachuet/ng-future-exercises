@@ -11,6 +11,10 @@ El objetivo de este ejercicio es trabajar la anidación de componentes y el cont
 - El componente debe mostrar los hábitos utilizando el componente habit creado en el ejercicio anterior
 - El componente debe usar un fichero .html para el template
 - El componente debe usar un fichero .css para los estilos
-  > <br/>
-  > <br/>
-  > 👍 Hecho
+
+## Resultado y notas
+
+👍 Hecho
+
+- Componente que reciba un paremetro: `input.required<string>()`
+- Para pintar un valor del componente en el HTML se pone entre dobles llaves `{{habit()}}`
