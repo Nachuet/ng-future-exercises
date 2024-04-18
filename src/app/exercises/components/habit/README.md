@@ -13,3 +13,7 @@ hábito.
 - Por defecto, el nombre del hábito debe ser 'Unkown'
 - El componente debe usar un fichero .html para el template
 - El componente debe usar un fichero .css para los estilos
+
+> <br/>
+> <br/>
+> 👍 Hecho

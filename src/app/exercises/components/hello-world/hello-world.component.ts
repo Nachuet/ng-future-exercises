@@ -5,11 +5,10 @@ import { Component } from '@angular/core'
   standalone: true,
   styles: [
     `
-    .tittle {
-      color : var(--primary-color);
-    }
-
-  }`,
+      .tittle {
+        color: var(--primary-color);
+      }
+    `,
   ],
   template: `<h1 class="tittle">Hola Mundo</h1>`,
 })

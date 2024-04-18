@@ -11,3 +11,7 @@ Vamos a mejorar la lista de hábitos. Si recibimos un array vacío, mostraremos 
 - El componente debe tener una lista de hábitos
 - El componente debe usar un fichero .html para el template
 - El componente debe usar un fichero .css para los estilos
+
+> 💡 Este ejercicio es el if en compoentes
+> <br/> > <br/>
+> 👍 Hecho
